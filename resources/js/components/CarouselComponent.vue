@@ -71,7 +71,7 @@ export default {
 
 <style scoped>
     .vue-flux{ 
-        /* top: -22px; */
+        top: -14px;
         width: 100%;
         height: 40em !important;
     }

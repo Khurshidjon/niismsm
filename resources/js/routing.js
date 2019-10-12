@@ -1,4 +1,5 @@
 import Home from './components/pages/Home';
+import singleNews from './components/pages/singleNews';
 import LoginPage from './components/auth/login';
 import RegisterPage from './components/auth/register';
 
@@ -6,6 +7,10 @@ export const routing = [
     {
         path: '/',
         component: Home
+    },
+    {
+        path: '/single-news/:id',
+        component: singleNews,
     },
     {
         path: '/login',

@@ -6,191 +6,199 @@
                 <h2><b>Новости института</b></h2>
             </div>
             <div class="">
-                 <div class="container">
+                 <div class="container news-container">
                     <div class="row">
                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
+                            <router-link to="/single-news/1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
                         </div>
                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
+                            <router-link to="/single-news/1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
                         </div>
                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
+                            <router-link to="/single-news/1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
                         </div>
                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </div>
-                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
+                            <router-link to="/single-news/1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
                         </div>
                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
+                            <router-link to="/single-news/1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
                         </div>
                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
+                            <router-link to="/single-news/1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
                         </div>
                         <div class="col-md-3">
-                            <v-card class="mx-auto" max-width="400">
-                                <v-img
-                                    class="white--text align-end"
-                                    height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                                >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
-                                </v-img>
-                                <v-card-text class="text--primary">
-                                    <div>Whitehaven Beach</div>
-                                    <div>Whitsunday Island, Whitsunday Islands</div>
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn color="orange" text>
-                                        Share
-                                    </v-btn>                
-                                    <v-btn color="orange" text>
-                                        Explore
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
+                            <router-link to="/single-news/1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
+                        </div>
+                        <div class="col-md-3">
+                            <router-link to="/single-news/?id=1">
+                                <v-card class="mx-auto" max-width="400">
+                                    <v-img
+                                        class="white--text align-end"
+                                        height="200px"
+                                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    >
+                                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                                    </v-img>
+                                    <v-card-text class="text--primary">
+                                        <div>Whitehaven Beach</div>
+                                        <div>Whitsunday Island, Whitsunday Islands</div>
+                                    </v-card-text>
+                                    <v-card-text class="text--primary pb-4">
+                                        <span class="float-right">12.09.2019</span>
+                                        <span class="float-left">
+                                            <font-awesome-icon fas icon="eye" />
+                                            123
+                                        </span>
+                                    </v-card-text>
+                                </v-card>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -304,5 +312,7 @@ export default {
 </script>
 
 <style scoped>
-    
+    .news-container a{
+        text-decoration: none;
+    }
 </style>

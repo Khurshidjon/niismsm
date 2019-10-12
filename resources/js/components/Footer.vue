@@ -1,7 +1,7 @@
 <template>
   <div class="footer-section">
        <footer class="footer">
-            <div class="container">
+            <div class="container px-md-5 py-5">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-4">
@@ -14,13 +14,9 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium sit et ex repudiandae quod, nihil harum officiis. Placeat delectus consequuntur perferendis nisi commodi temporibus eos velit dignissimos blanditiis laudantium!
                         </p>
                         <br>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium sit et ex repudiandae quod, nihil harum officiis. Placeat delectus consequuntur perferendis nisi commodi temporibus eos velit dignissimos blanditiis laudantium!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium sit et ex repudiandae quod, nihil harum officiis. Placeat delectus consequuntur perferendis nisi commodi temporibus eos velit dignissimos blanditiis laudantium!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium sit et ex repudiandae quod, nihil harum officiis. Placeat delectus consequuntur perferendis nisi commodi temporibus eos velit dignissimos blanditiis laudantium!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium sit et ex repudiandae quod, nihil harum officiis. Placeat delectus consequuntur perferendis nisi commodi temporibus eos velit dignissimos blanditiis laudantium!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium sit et ex repudiandae quod, nihil harum officiis. Placeat delectus consequuntur perferendis nisi commodi temporibus eos velit dignissimos blanditiis laudantium!
-                        </p>
+                        <div class="yandex-map">
+                            <iframe src="https://yandex.uz/map-widget/v1/-/CGwjzFP2" width="450" height="200" frameborder="0" allowfullscreen="true"></iframe>
+                        </div>
                     </div>
                     <div class="col-md-6 right-menu">
                         <div class="mt-5 pl-4">
@@ -123,7 +119,7 @@ export default {
         color: #808080;
     }
     .footer{
-        padding: 7em 12em;
+        /* padding: 7em 12em; */
     }
     .footer-after{
         background-color: #333333 !important;
