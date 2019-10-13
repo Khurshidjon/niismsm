@@ -18,7 +18,10 @@
                             <div>{{ post.discription }}</div>
                         </v-card-text>
                         <v-card-text class="text--primary pb-4">
-                            <span class="float-right">12.09.2019</span>
+                            <span class="float-right">                                
+                                <font-awesome-icon fas icon="calendar" />
+                                12.09.2019
+                            </span>
                             <span class="float-left">
                                 <font-awesome-icon fas icon="eye" />
                                 123
