@@ -1,6 +1,6 @@
 <template>
     <div id="layouts" class="">
-        <nav-bar style="padding-bottom: 1em"/>
+        <nav-bar style="padding-bottom: 5em"/>
             <div class="">
                 <router-view></router-view>
             </div>

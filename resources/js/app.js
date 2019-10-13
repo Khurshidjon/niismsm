@@ -1,4 +1,4 @@
-// require('./bootstrap');
+require('./bootstrap');
 import BootstrapVue from 'bootstrap-vue';
 
 import Vue from 'vue';
@@ -9,8 +9,13 @@ import ViewLayout from './components/ViewLayout';
 import { routing } from './routing';
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import '@mdi/font/css/materialdesignicons.css' 
 Vue.use(Vuetify)
-const opts = {}
+const opts = {
+    icons: {
+        iconfont: 'mdi', // default - only for display purposes
+      },
+}
 export default new Vuetify(opts)
 
 Vue.use(VueRouter);

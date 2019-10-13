@@ -1,5 +1,5 @@
 <template>
-    <div class="" style="padding-top: 79px" id="carousel-template">
+    <div class="" id="carousel-template">
             <Carousel/>
         <div class="container" style="margin-top: 33em;">
             <div class="text-center">
@@ -7,8 +7,8 @@
             </div>
             <div class="">
                  <div class="container news-container">
-                    <div class="row">
-                        <div class="col-md-3">
+                    <v-row>
+                        <v-col cols="3">
                             <router-link to="/single-news/1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -31,8 +31,8 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                        <div class="col-md-3">
+                        </v-col>
+                        <v-col cols="3">
                             <router-link to="/single-news/1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -55,8 +55,8 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                        <div class="col-md-3">
+                        </v-col>
+                        <v-col cols="3">
                             <router-link to="/single-news/1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -79,8 +79,8 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                        <div class="col-md-3">
+                        </v-col>
+                        <v-col cols="3">
                             <router-link to="/single-news/1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -103,8 +103,8 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                        <div class="col-md-3">
+                        </v-col>
+                        <v-col cols="3">
                             <router-link to="/single-news/1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -127,8 +127,8 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                        <div class="col-md-3">
+                        </v-col>
+                        <v-col cols="3">
                             <router-link to="/single-news/1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -151,8 +151,8 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                        <div class="col-md-3">
+                        </v-col>
+                        <v-col cols="3">
                             <router-link to="/single-news/1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -175,8 +175,8 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                        <div class="col-md-3">
+                        </v-col>
+                        <v-col cols="3">
                             <router-link to="/single-news/?id=1">
                                 <v-card class="mx-auto" max-width="400">
                                     <v-img
@@ -199,8 +199,15 @@
                                     </v-card-text>
                                 </v-card>
                             </router-link>
-                        </div>
-                    </div>
+                        </v-col>
+                    </v-row>
+                    <v-row align="center">
+                        <v-col cols="12" class="text-center">
+                            <v-btn outlined color="indigo">
+                                <router-link to="/news">Новости</router-link>
+                            </v-btn>
+                        </v-col>
+                    </v-row>
                 </div>
             </div>
         </div>
@@ -210,15 +217,15 @@
                         <h3>БЛИЖАЙШИЕ СОБЫТИЯ</h3>
                     </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
+                    <v-row>
+                        <v-col cols="4">
                             <v-card class="mx-auto" max-width="400">
                                 <v-img
                                     class="white--text align-end"
                                     height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    :src="newsImages.Img1"
                                 >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
+                                <!-- <v-card-title>Top 10 Australian beaches</v-card-title> -->
                                 </v-img>
                                 <v-card-text class="text--primary">
                                     <div>Whitehaven Beach</div>
@@ -233,15 +240,15 @@
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
-                        </div>
-                        <div class="col-md-4">
+                        </v-col>
+                        <v-col cols="4">
                             <v-card class="mx-auto" max-width="400">
                                 <v-img
                                     class="white--text align-end"
                                     height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    :src="newsImages.Img2"
                                 >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
+                                <!-- <v-card-title>Top 10 Australian beaches</v-card-title> -->
                                 </v-img>
                                 <v-card-text class="text--primary">
                                     <div>Whitehaven Beach</div>
@@ -256,15 +263,15 @@
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
-                        </div>
-                        <div class="col-md-4">
+                        </v-col>
+                        <v-col cols="4">
                             <v-card class="mx-auto" max-width="400">
                                 <v-img
                                     class="white--text align-end"
                                     height="200px"
-                                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                    :src="newsImages.Img3"
                                 >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
+                                <!-- <v-card-title>Top 10 Australian beaches</v-card-title> -->
                                 </v-img>
                                 <v-card-text class="text--primary">
                                     <div>Whitehaven Beach</div>
@@ -279,12 +286,11 @@
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
-                        </div>
-                    </div>
+                        </v-col>
+                    </v-row>
                 </div>
             </v-parallax>
         </template>
-        
     </div>
 </template>
 

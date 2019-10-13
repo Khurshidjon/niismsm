@@ -15,7 +15,7 @@
                         </p>
                         <br>
                         <div class="yandex-map">
-                            <iframe src="https://yandex.uz/map-widget/v1/-/CGwjzFP2" width="450" height="200" frameborder="0" allowfullscreen="true"></iframe>
+                            <!-- <iframe src="https://yandex.uz/map-widget/v1/-/CGwjzFP2" width="450" height="200" frameborder="0" allowfullscreen="true"></iframe> -->
                         </div>
                     </div>
                     <div class="col-md-6 right-menu">
