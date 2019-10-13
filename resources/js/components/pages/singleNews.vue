@@ -1,5 +1,5 @@
 <template>
-    <div style="padding: 7em">
+    <div class="container py-4">
         <v-card class="mx-auto" max-width="1000">
             <v-card-title>Top 10 Australian beaches</v-card-title>
             <v-img
@@ -10,7 +10,7 @@
             </v-img>
             <v-card-text class="text--primary">
                 <div>Whitehaven Beach</div>
-                <div>
+                <div class="text-justify">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, repellendus hic! Eos harum odio, dolores neque, nihil officia vel placeat facere tenetur praesentium adipisci dolorum numquam totam, enim qui voluptatibus!
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, repellendus hic! Eos harum odio, dolores neque, nihil officia vel placeat facere tenetur praesentium adipisci dolorum numquam totam, enim qui voluptatibus!
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, repellendus hic! Eos harum odio, dolores neque, nihil officia vel placeat facere tenetur praesentium adipisci dolorum numquam totam, enim qui voluptatibus!
@@ -204,7 +204,7 @@
                     </router-link>
                 </div>
                 <div class="col-md-3">
-                    <router-link to="/single-news/?id=1">
+                    <router-link to="/single-news/1">
                         <v-card class="mx-auto" max-width="400">
                             <v-img
                                 class="white--text align-end"

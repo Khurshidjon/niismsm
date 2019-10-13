@@ -1,6 +1,7 @@
 import Home from './components/pages/Home';
 import singleNews from './components/pages/singleNews';
 import News from './components/pages/News';
+import Contact from './components/pages/Contact';
 import LoginPage from './components/auth/login';
 import RegisterPage from './components/auth/register';
 
@@ -20,6 +21,10 @@ export const routing = [
     {
         path: '/login',
         component: LoginPage
+    },
+    {
+        path: '/contacts',
+        component: Contact
     },
     {
         path: '/register',

@@ -129,9 +129,9 @@ export default {
     }
     .right-menu .list-group li.list-group-item{
         background-color: #222222;
-        border-top:1px dashed #333333;;
-        border-left:none;
-        border-right:none;
+        border-top: 1px dashed #333333;
+        border-left: none;
+        border-right: none;
         border-bottom: 1px dashed #333333;
         /* padding-bottom: 10px; */
     }

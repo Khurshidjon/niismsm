@@ -4,7 +4,7 @@
             <h2><b>Новости института</b></h2>
         </div>
         <div class="row">
-            <div class="col-md-3" v-for="post in posts">
+            <div class="col-sm-6 col-md-3 " v-for="post in posts">
                 <router-link to="/single-news/2">
                     <v-card class="mx-auto" max-width="400">
                         <v-img

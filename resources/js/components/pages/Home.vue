@@ -10,7 +10,7 @@
                                 <h2><b>Новости института</b></h2>
                             </div>
                              <v-row>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -37,7 +37,7 @@
                                         </v-card>
                                     </router-link>
                                 </v-col>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -64,7 +64,7 @@
                                         </v-card>
                                     </router-link>
                                 </v-col>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -91,7 +91,7 @@
                                         </v-card>
                                     </router-link>
                                 </v-col>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -118,7 +118,7 @@
                                         </v-card>
                                     </router-link>
                                 </v-col>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -145,7 +145,7 @@
                                         </v-card>
                                     </router-link>
                                 </v-col>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -172,7 +172,7 @@
                                         </v-card>
                                     </router-link>
                                 </v-col>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -199,7 +199,7 @@
                                         </v-card>
                                     </router-link>
                                 </v-col>
-                                <v-col cols="12" md="3" sm="1">
+                                <v-col cols="12" md="3" sm="6">
                                     <router-link to="/single-news/?id=1">
                                         <v-card class="mx-auto" max-width="400">
                                             <v-img
@@ -237,7 +237,7 @@
                         </v-col>
                         <v-col cols="12" md="2">
                             <div class="text-center py-3">
-                                <h2><b>Calendar</b></h2>
+                                <h2><b>Календарь</b></h2>
                             </div>
                             <FunctionalCalendar></FunctionalCalendar>
                         </v-col>
@@ -255,6 +255,7 @@
                         :autoplay="true"  
                         :loop="true"
                         :center="true"
+                        :margin="15"
                         :responsive="{0:{items:1,nav:false},600:{items:3,nav:false}}"
                     >
                         <v-card class="mx-auto" max-width="400">

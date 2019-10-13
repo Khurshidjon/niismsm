@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
-    <header>
-        <view-layout></view-layout>
-    </header>  
+<div>
+    <view-layout></view-layout>
+</div>
 @endsection
